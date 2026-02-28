@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "css/styles3.css">
+</head>
+<body>
+    <h1>Complex Form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <label for="emailid">Email</label>
+        <input type="email" name="emailid" id="emailid">
+
+        <label for="telephone">Phone</label>
+        <input type="tel" id="telephone" name="telephone">
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <span>Gender</span>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+       
+
+        <label for="country">Country</label>
+        <br/>
+        <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="India">India</option>
+            <option value="Israel">Israel</option>
+            <option value="Russia">Russia</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street">
+
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <label for="consent">I agree to the terms of service</label>
+        <input type="checkbox" name="consent" id="consent">
+    </fieldset>
+    <input type="submit" value="Submit">
+
+</body>
+</html>

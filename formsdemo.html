@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+    <label for="name">Name:</label><br/>
+    <input type="text" name="name" id="name">
+    <br/>
+
+    <label for="emailid">Email:</label><br/>
+    <input type="email" name="emailid" id="emailid">
+    <br/>
+
+    <label for="phone number">Phone:</label><br/>
+    <input type="tel" name="phone number" id="phone number">
+    <br/>
+
+    <label for="file">Resume:</label><br/>
+    <input type="file" id="file" name="file">
+    <br/>
+
+    <label for="experience">Experience (years):</label><br/>
+    <input type="number" id="experience" name="experience" min="0" max="50" step="1"> 
+
+    <br/>
+        
+    <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" id="html" name="html"><br/>
+        <label for="html">HTML</label>
+        <br/>
+        <input type="checkbox" id="css" name="css"><br/>
+        <label for="css">CSS</label>
+        <br/>
+        <input type="checkbox" id="javascript" name="javascript"><br/>
+        <label for="javascript">JavaScript</label>
+    </fieldset>
+    <label for="highesteducation">Highest Education</label><br/>
+    <select name="highesteducation" id="highesteducation"> 
+    <option value="HighSchool">High School</option>
+    <option value="xyz">xyz</option>
+    <option value="abc">abc</option>
+    </select>
+
+    <br/>
+
+    <span>Availability:</span><br/>
+    <input type="radio" name="radio" id="full time"><br/>
+    <label for="full time">Full Time</label>
+    <br/>
+    <input type="radio" name="radio" id="part time"><br/>
+    <label for="part time">Part Time</label>
+    <br/>
+
+    <label for="comments">Additional Comments</label><br/>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    <br/>
+
+    <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
